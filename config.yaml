@@ -118,7 +118,7 @@ params:
       disableAbout: false
       disableExperience: false
       disableEducation: false
-      disableProjects: false
+      disableProjects: true
       disableAchievements: true
       disableContact: false
 
@@ -169,7 +169,7 @@ params:
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - job: "Senior Software Developer"
@@ -234,7 +234,7 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -299,7 +299,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
@@ -353,7 +353,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:toufic_majdalani@outlook.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -369,11 +369,11 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/majdaltouzach
+      linkedin: https://linkedin.com/in/majdaltoufic
+      #   twitter: https://twitter.com
+      #   instagram: https://instagram.com
+      #   facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
