@@ -127,8 +127,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Toufic."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    subtitle: "I build apps"
+    content: "A passionate backend developer. I tend to use modern technologies to enhance the security of my websites and apps."
     image: /images/hero.jpg
     bottomImage:
       enable: true
