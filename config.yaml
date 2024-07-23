@@ -350,7 +350,7 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
+    title: "Contact me"
     content: Feel free to e-mail me for recruitment or business inquiries!
     btnName: Mail me
     btnLink: mailto:toufic_majdalani@outlook.com
