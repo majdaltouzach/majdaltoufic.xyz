@@ -368,6 +368,7 @@ params:
       title: Recent Posts
       enable: true
       disableFeaturedImage: false
+      newPage: true
     socialNetworks:
       github: https://github.com/majdaltouzach
       linkedin: https://linkedin.com/in/majdaltoufic
