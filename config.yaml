@@ -153,7 +153,7 @@ params:
       customIcons:
         - icon: /fav.png
           url: "https://majdaltoufic.xyz"
-          newPage: false
+          
 
   # About
   about:
@@ -376,8 +376,10 @@ params:
       disableFeaturedImage: false
       newPage: true
     socialNetworks:
+      website: https://majdaltoufic.xyz
       github: https://github.com/majdaltouzach
       linkedin: https://linkedin.com/in/majdaltoufic
+      instagram: https://instagram.com/majdaltoufic88
       #   twitter: https://twitter.com
       #   instagram: https://instagram.com
       #   facebook: https://facebook.com
