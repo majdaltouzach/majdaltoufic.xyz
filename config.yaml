@@ -136,9 +136,9 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/resume/Toufic-Majdalani_Resume-2024.pdf"
       download: false
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
