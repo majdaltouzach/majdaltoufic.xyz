@@ -360,12 +360,18 @@ params:
     content: Feel free to e-mail me for recruitment or business inquiries!
     btnName: Mail me
     btnLink: mailto:toufic_majdalani@outlook.com
+
+  #Landing 
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
     #   emailCaption: "Enter your email address"
     #   messageCaption: "Enter your message here"
     #   messageRows: 5
+  #Connect
+  # landing:
+  #   enable: true 
+  #   title
 
   footer:
     recentPosts:
