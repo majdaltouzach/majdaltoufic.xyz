@@ -127,7 +127,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Toufic."
-    subtitle: "I build apps"
+    subtitle: "Freelance FOSS Software Developer"
     content: "A passionate backend developer. I tend to use modern technologies to enhance the security of my websites and apps."
     image: /images/hero.jpg
     bottomImage:
