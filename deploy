@@ -4,6 +4,6 @@ HOST=majdaltoufic.xyz
 PORT=56294
 DIR=/srv/majdaltoufic.xyz
 
-hugo && rsync -avzh  -e "ssh -p 56294" --delete public/  ${USER}@${HOST}:${DIR}
+hugo  && rsync -arvzh  -e "ssh -p 56294" --delete public/  ${USER}@${HOST}:${DIR}
 
 exit 0

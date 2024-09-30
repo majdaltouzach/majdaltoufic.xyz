@@ -148,11 +148,11 @@ params:
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/majdaltoufic 
 
-        - icon: fab fa-instagram
-          url: https://instagram.com/majdaltoufic88
+        #- icon: fab fa-instagram
+        #  url: https://instagram.com/majdaltoufic88
       customIcons:
         - icon: /fav.png
-          url: "/"
+          url: "https://connect.majdaltoufic.xyz"
           
 
   # About
@@ -356,10 +356,10 @@ params:
   #Contact
   contact:
     enable: true
-    title: "Contact me"
-    content: Feel free to e-mail me for recruitment or business inquiries!
-    btnName: Mail me
-    btnLink: mailto:toufic_majdalani@outlook.com
+    title: "Contact"
+    content: For employer or business inquireies, click the link below. 
+    btnName: Let's Connect! 
+    btnLink: https://connect.majdaltoufic.xyz 
 
   #Landing 
     # formspree:
@@ -368,10 +368,10 @@ params:
     #   emailCaption: "Enter your email address"
     #   messageCaption: "Enter your message here"
     #   messageRows: 5
-  #Connect
-  # landing:
-  #   enable: true 
-  #   title
+#Connect
+#   landing:
+#     enable: true 
+#     title
 
   footer:
     recentPosts:
@@ -382,13 +382,13 @@ params:
       disableFeaturedImage: false
       newPage: true
     socialNetworks:
-      website: https://majdaltoufic.xyz
-      github: https://github.com/majdaltouzach
-      linkedin: https://linkedin.com/in/majdaltoufic
-      instagram: https://instagram.com/majdaltoufic88
-      #   twitter: https://twitter.com
+      #  github: https://github.com/majdaltouzach
+      #linkedin: https://linkedin.com/in/majdaltoufic
+      ###instagram: https://instagram.com/majdaltoufic88
+      ###   twitter: https://twitter.com
       #   instagram: https://instagram.com
       #   facebook: https://facebook.com
+      website: https://connect.majdaltoufic.xyz
 
   # List pages like blogs and posts
   listPages:
