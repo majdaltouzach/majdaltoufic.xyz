@@ -136,7 +136,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/resume/Toufic-Majdalani_Resume-2024.pdf"
+      url: "/resume/Toufic-Majdalani_Resume-2024-2025.pdf"
       download: false
       newPage: true
     socialLinks:
