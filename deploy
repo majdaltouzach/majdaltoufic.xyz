@@ -3,4 +3,4 @@ USER=myhttp
 HOST=majdaltoufic.xyz
 DIR=/var/www/majdaltoufic.xyz 
 cd $HOME/DevProjects/majdaltoufic.xyz 
-rsync -arzvh public/* --delete "${USER}@${HOST}:${DIR}"
+hugo && rsync -arzvh public/* --delete "${USER}@${HOST}:${DIR}"
