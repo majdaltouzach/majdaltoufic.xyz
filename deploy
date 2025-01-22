@@ -1,8 +1,0 @@
-#!/bin/sh
-USER=myhttp
-HOST=majdaltoufic.xyz
-DIR=/srv/majdaltoufic.xyz
-
-hugo  && rsync -arvzh --delete public/  ${USER}@${HOST}:${DIR}
-
-exit 0
