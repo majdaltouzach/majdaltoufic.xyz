@@ -20,7 +20,7 @@ about:
   button:
     enable: true
     label: 'DOWNLOAD MY RESUME'
-    link: #
+    link: 'resume/Toufic-Majdalani-Resume_2024-2025.pdf' 
     icon: 'fa-download'
 
 ###########################3 Experience ##############################
