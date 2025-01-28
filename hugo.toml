@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://example.com"
+baseURL = "https://majdaltoufic.xyz"
 title = "Port Hugo"
 theme = "port-hugo"
 
@@ -51,10 +51,10 @@ weight = 3
 
 #################### default parameters ################################
 [params]
-copyright = "Copyright Burton Guster &copy;"
+copyright = "Copyright Toufic Majdalani &copy;"
 # Meta data
 description = "Personal Portfolio"
-author = "Burton Guster"
+author = "Toufic Majdalani"
 favicon = "images/favicon.png"
 google_analytics = "G-ABCDEFG123"
 logo_light = "images/logo.svg"
@@ -69,19 +69,19 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 [[params.social]]
 icon = "fab fa-github"
-link = "https://github.com/tylersayshi"
+link = "https://github.com/majdaltouzach"
 
 [[params.social]]
 icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/"
+link = "https://www.linkedin.com/in/majdaltoufic"
 
 [[params.social]]
 icon = "fas fa-envelope"
-link = "mailto:guster@burton.com"
+link = "mailto:toufic_majdalani@outlook.com"
 
 [[params.social]]
-icon = "fab fa-medium"
-link = "https://medium.com/@gusburton"
+# icon = "fab fa-medium"
+# link = "https://medium.com/@gusburton"
 
 contentDir = "content/english"
 weight = 1
