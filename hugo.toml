@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://majdaltoufic.xyz"
-title = "Port Hugo"
+title = "Toufic's Hugo Website"
 theme = "port-hugo"
 
 ############################# Plugins ##############################
