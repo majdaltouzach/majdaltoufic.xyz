@@ -1,0 +1,3 @@
+[submodule "themes/hugo_profile"]
+	path = themes/hugo_profile
+	url = https://github.com/gurusabarish/hugo-profile.git
