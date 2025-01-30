@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://majdaltoufic.xyz"
-title = "Toufic's Hugo Website"
+title = "Toufic Majdalani's Website"
 theme = "port-hugo"
 
 ############################# Plugins ##############################
@@ -43,10 +43,10 @@ name = "About me"
 URL = "#about"
 weight = 2
 
-# [[menu.main]]
-# name = "Portfolio"
-# URL = "#portfolio"
-# weight = 3
+ # [[menu.main]]
+ # name = "Portfolio"
+ # URL = "#portfolio"
+ # weight = 3
 
 
 #################### default parameters ################################
@@ -54,7 +54,7 @@ weight = 2
 copyright = "Copyright Toufic Majdalani &copy;"
 # Meta data
 description = "Personal Portfolio"
-author = "Toufic Majdalani"
+author = "Jack Davis"
 favicon = "images/favicon.png"
 google_analytics = "G-ABCDEFG123"
 logo_light = "images/logo.svg"
