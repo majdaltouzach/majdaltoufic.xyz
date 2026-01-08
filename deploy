@@ -1,5 +1,0 @@
-#!/bin/sh 
-USER=toufic
-HOST=majdaltoufic.xyz
-DIR=/var/www/majdaltoufic.xyz
-hugo && rsync -arzvh $PWD/public/* --delete "${USER}@${HOST}:${DIR}" 
