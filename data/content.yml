@@ -90,7 +90,7 @@ funfacts:
 
     - name: 'OPEN-SOURCE CONTRIBUTIONS'
       image: 'images/icons/web-development.png'
-      count: '100+'
+      count: '10000'
 
     - name: 'CTF COMPETITIONS'
       image: 'images/icons/happy.png'
