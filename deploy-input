@@ -1,8 +1,0 @@
-#/bin/sh 
-echo "Enter User of VPS"
-read USER
-echo "Enter Host or IP of VPS"
-read HOST
-echo "Enter Directory of Site in VPS"
-read DIR
-hugo && rsync -arzvh $PWD/public/* --delete "${USER}@${HOST}:${DIR}" 
