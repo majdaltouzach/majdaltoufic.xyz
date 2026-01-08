@@ -4,19 +4,21 @@ hero:
 
   # animated text loop
   occupations:
-    - 'Freelance Software Engineer'
+    - 'Software Engineer'
+    - 'Open-Source Developer'
+    - 'Cybersecurity Professional'
 
   # hero background image
   bg_image: 'images/background.jpg'
   # optional mobile breakpoint background
-  mobile_bg_image: 'images/gus_small.jpg'
+  mobile_bg_image: 'images/lebanon_small.jpg'
 
 ########################### About ##################################
 about:
   enable: true
   image: 'images/profile.png'
   title: 'THIS IS ME'
-  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
+  content: Hi, thank you for taking a look around my site. I'm a Software Engineering graduate from Washington State University with a passion for systems development, cybersecurity, and open-source contributions. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
   button:
     enable: true
     label: 'DOWNLOAD MY RESUME'
@@ -28,70 +30,90 @@ experience:
   enable: true
   title: 'EXPERIENCE'
   experience_list:
-    - name: Web Developer
-      company: Freelance
-      duration: '2020-Current'
-      content: I make websites.
+    - name: Open-Source Software Developer
+      company: Linux Kernel & System-Level Projects
+      duration: 'Jun 2017 - Present'
+      content: Contribute to Linux Kernel in C focusing on security-critical components, memory management, and system hardening.
 
-    - name: Private Detective
-      company: Psych
-      duration: '2019-2020'
-      content: Okay. This is hard to explain but I’m going to give it a shot. You and I are opening our own private detective agency.
+    - name: Technology Specialist
+      company: Tech Security USA
+      duration: 'Jan 2024 - Present'
+      content: Provide technical support and security consulting, implementing security solutions and access control systems for enterprise clients.
 
-    - name: Pharmaceutical Salesman
-      company: South Coast Pharmaceuticals
-      duration: '2012-2018'
-      content: We are not bounty hunters, Shawn. I am a pharmaceutical salesman. And Lassiter made it very clear! He said in no uncertain terms. These are certain terms, Shawn! Certain terms!
+    - name: PC Support Helpdesk Intern
+      company: Expeditors International
+      duration: 'Jun 2023 - Aug 2023'
+      content: Debugged enterprise Windows systems and automated IT workflows using PowerShell and Python.
+
+    - name: QA Tester I Intern
+      company: Denali Advanced Integration (T-Mobile)
+      duration: 'Jul 2019 - Sept 2019'
+      content: Performed testing and validation of enterprise applications ensuring quality and regulatory compliance.
 
 ############################### Skill #################################
 skill:
   enable: true
-  title: 'SOME SKILLS'
+  title: 'TECHNICAL SKILLS'
   showpercent: false
   skill_list:
-    - name: 'React'
+    - name: 'C/C++ Systems Programming'
+      percentage: '95%'
+
+    - name: 'Linux/Windows Administration'
+      percentage: '90%'
+
+    - name: 'Python & Bash Scripting'
+      percentage: '90%'
+
+    - name: 'Docker & Containerization'
       percentage: '85%'
 
-    - name: 'Detecting'
-      percentage: '93%'
+    - name: 'Cybersecurity & Threat Analysis'
+      percentage: '85%'
 
-    - name: 'Selling'
-      percentage: '25%'
+    - name: 'Cloud Infrastructure (AWS/Azure)'
+      percentage: '80%'
 
-    - name: 'Yelling'
-      percentage: '100%'
+    - name: 'Database Systems (SQL/MongoDB)'
+      percentage: '85%'
+
+    - name: 'Git & CI/CD Pipelines'
+      percentage: '90%'
 
 ######################### funfacts #############################3
 funfacts:
   enable: true
   funfacts_list:
-    - name: 'CUPS PER DAY'
+    - name: 'COFFEE CUPS PER DAY'
       image: 'images/icons/coffee.png'
-      count: '2'
+      count: '4'
 
-    - name: 'SITES BUILT'
+    - name: 'OPEN-SOURCE CONTRIBUTIONS'
       image: 'images/icons/web-development.png'
-      count: '25'
+      count: '100+'
 
-    - name: 'USELESS ROW OF ICONS'
+    - name: 'CTF COMPETITIONS'
       image: 'images/icons/happy.png'
-      count: '1'
+      count: '15'
 
 ############################# portfolio ################################
-# portfolio:
-#   enable: false
-#   title: 'MY WORK'
-#   portfolio_list:
-#     - name: Hugo
-#       image: 'images/portfolio/hugo.png'
-#       url: https://gohugo.io
-#       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
-#
-#     - name: Hugo Themes
-#       image: 'images/portfolio/hugothemes.png'
-#       url: https://gohugo.io
-#       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
-#
-#     - name: Just A Design
-#       image: 'images/portfolio/design.png'
-#       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+# Portfolio section disabled - small icons don't work well with .Fill template method
+# To enable: create static/images/portfolio/ with proper-sized project screenshots (at least 800x600px)
+portfolio:
+  enable: false
+  title: 'PROJECTS & RESEARCH'
+  portfolio_list:
+    - name: YouTube Big Data Analytics Platform
+      image: 'images/portfolio/bigdata.png'
+      url: https://github.com/majdaltouzach
+      description: Built distributed data processing system using Apache Spark and MongoDB handling 100K+ items with 99.9% data integrity. Implemented real-time analytics pipeline with automated ETL processes for YouTube metadata analysis.
+
+    - name: WSU CyberSecurity Lab
+      image: 'images/portfolio/cybersec.png'
+      url: https://github.com/majdaltouzach
+      description: Developed security monitoring tools in C/Python using Splunk SIEM. Led incident response and security assessments for university infrastructure, implementing automated threat detection systems.
+
+    - name: Malware Binary Analysis Toolkit
+      image: 'images/portfolio/malware.png'
+      url: https://github.com/majdaltouzach
+      description: Built containerized malware analysis environment using Docker and Python for safe binary examination. Created automated static and dynamic analysis pipelines with Ghidra integration for reverse engineering workflows.
